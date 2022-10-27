@@ -1,0 +1,13 @@
+1：服务器和终端代码切换地方
+   com.android.server.config.AppConfig
+   public static int APP_MODEL = APP_MODEL_CLIENT;
+
+2:服务器启动成功之后会自动创建,文件夹
+  sdcard/androidServer
+  sdcard/androidServer/file
+  sdcard/androidServer/image
+
+3:2表示的是文件下载和图片的保存地址，里面的内容需要自己去填充
+4：终端启动，点击连接服务器后可以操作
+
+

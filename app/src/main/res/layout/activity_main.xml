@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_startServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启服务器" />
+
+    <Button
+        android:id="@+id/btn_stopServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止服务器" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        tools:text="文件传输" />
+
+    <Button
+        android:id="@+id/btn_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http-sql" />
+
+    <Button
+        android:id="@+id/btn_down_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上传下载目录" />
+
+
+</LinearLayout>
